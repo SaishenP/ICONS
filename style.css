@@ -1,0 +1,57 @@
+.wrapper .tool-tip::before {
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background: #ffffff;
+    bottom: -3px;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  .wrapper .icon:hover .tool-tip {
+    top: -45px;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+  .wrapper .icon:hover span,
+  .wrapper .icon:hover .tool-tip {
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+  }
+  .wrapper .instagram:hover,
+  .wrapper .instagram:hover .tool-tip,
+  .wrapper .instagram:hover .tool-tip::before {
+    background: rgb(193, 53, 132);
+    color: #ffffff;
+  }
+  .wrapper .github:hover,
+  .wrapper .github:hover .tool-tip,
+  .wrapper .github:hover .tool-tip::before {
+    background: #333333;
+    color: #ffffff;
+  }
+  .wrapper .twitter:hover,
+  .wrapper .twitter:hover .tool-tip,
+  .wrapper .twitter:hover .tool-tip::before {
+    background: #1DA1F2;
+    color: #ffffff;
+  }
+  .wrapper .facebook:hover,
+  .wrapper .facebook:hover .tool-tip,
+  .wrapper .facebook:hover .tool-tip::before {
+    background: rgb(24, 119, 242);
+    color: #ffffff;
+  }
+  .wrapper .twitch:hover,
+  .wrapper .twitch:hover .tool-tip,
+  .wrapper .twitch:hover .tool-tip::before {
+    background: rgb(108, 24, 242);
+    color: #ffffff;
+  }
+  .wrapper .snapchat:hover,
+  .wrapper .snapchat:hover .tool-tip,
+  .wrapper .snapchat:hover .tool-tip::before {
+    background: rgb(245, 241, 3);
+    color: #0f0505;
+  }
